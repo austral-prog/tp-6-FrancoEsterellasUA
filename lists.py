@@ -40,32 +40,28 @@ def check_lists(list_to_compare1, list_to_compare2):
         return False
 
 def list_of_lists(list_of_lists_to_modify):
-    if len(list_of_lists_to_modify[0])>1:
-        row1= list_of_lists_to_modify[0]
+    row1= list_of_lists_to_modify[0]
+    row2= list_of_lists_to_modify[1]
+    row3= list_of_lists_to_modify[2]
+    if len(row1=)>1:
         row1= row1[:2] 
-    elif len(list_of_lists_to_modify[0])==1:
-        row1= list_of_lists_to_modify[0]
+    elif len(row1)==1:
         row1= [row1[0]]
     else:
         row1= []
 
-    if len(list_of_lists_to_modify[1])>=4:
-        row2= list_of_lists_to_modify[1]
+    if len(row2)>=4:
         row2= row2[1:4]
-    elif len(list_of_lists_to_modify[1])==3:
-        row2= list_of_lists_to_modify[1]
+    elif len(row2)==3:
         row2= row2[1:3]
-    elif len(list_of_lists_to_modify[1])==2:
-        row2= list_of_lists_to_modify[1]
+    elif len(row2)==2:
         row2= row2[2]
     else:
         row2= []
 
-    if len(list_of_lists_to_modify[2])>=2:
-        row3= list_of_lists_to_modify[2]
+    if len(row3)>=2:
         row3= [row3[-2],row3[-1]]
-    elif len(list_of_lists_to_modify[2])==1:
-        row3= list_of_lists_to_modify[2]
+    elif len(row3)==1:
         row3= [row3[-1]]
     else:
         row3=[]
