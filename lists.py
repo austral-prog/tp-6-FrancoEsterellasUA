@@ -43,7 +43,7 @@ def list_of_lists(list_of_lists_to_modify):
     row1= list_of_lists_to_modify[0]
     row2= list_of_lists_to_modify[1]
     row3= list_of_lists_to_modify[2]
-    if len(row1=)>1:
+    if len(row1)>1:
         row1= row1[:2] 
     elif len(row1)==1:
         row1= [row1[0]]
